@@ -60,7 +60,7 @@
    <div class="center">
 			<h5>Welkom op onze site!</h5>
      <br>
- 			<p>Hier zie je een lijst met artikelen die je bij mij kunt bestellen.</p>
+ 			<p>Hier zie je een lijst met exclusieve horloges die bij ons verkijgbaar zijn.</p>
 			<p>klik op een artikel voor meer informatie<p>
 					<p>klik op de "winkelwagentje" om het artikel in je winkelwagen te stoppen</p>
 		</div>	
@@ -70,25 +70,7 @@
     
     
     <!-- template for product info-->
-  	<template id="productcard">
-		<div class="col-sm">
-			<div class="card" onclick="openArticlePage(this)">
-				<h5 class="card-header product_title"></h5>
-				<img width="200" class="product_image card-img-top">
-				<div class="card-body">
-					<p class="product_description card-text"></p>
-					<ul class="product-properties">
-						<li><span class="propert-name">Prijs:</span><span class="product_price"></span></li>
-						<li><span class="propert-name">Code:</span><span class="product_code"></span></li>
-					</ul>
-					<input class="product_amount" type="number" value="1" min="1">
-					<input class="product_id" type="hidden" name="id" data-json="">
-					<button class="btn btn-outline-dark shop-button" onclick="event.stopPropagation();addAmountClosestToBasket(this);$('.toast').toast('show')">🛒</button>
-				</div>
-			</div>
-		</div>
-	  </template>
-	</main>
+ 
 
   <!-- voettekst -->
 	<footer>
