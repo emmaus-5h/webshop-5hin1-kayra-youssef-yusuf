@@ -25,7 +25,7 @@
 
   <!-- menubalk -->
 
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<nav class="navbar">
 		<a class="navbar-brand" href="/index.html">Home</a>
 		<a class="navbar-brand" href="/rolex.html">Rolex</a>
     <a class="navbar-brand" href="/ap.html">Audemars Piquet</a>
@@ -58,7 +58,7 @@
     <center>
     
    <div class="center">
-			<
+			<h5>Patek Philippe artikelen</h5>
 		</div>	
     
     
@@ -69,14 +69,25 @@
   	<template id="productcard">
 		<div class="col-sm">
 			<div class="card" onclick="openArticlePage(this)">
+        <p> <span classs="propert-name">
+        </span><span class="product_interest">
+        </span></p>
 				<h5 class="card-header product_title"></h5>
-				<img width="200" class="product_image card-img-top">
+        <p><span class="propert-name">
+        </span><span class="product_stock"></span></p>
+
+        
+				<img class="product_image card-img-top"
+        src="/images/1.jpg">
 				<div class="card-body">
 					<p class="product_description card-text"></p>
 					<ul class="product-properties">
 						<li><span class="propert-name">Prijs:</span><span class="product_price"></span></li>
-						<li><span class="propert-name">Code:</span><span class="product_code"></span></li>
-					</ul>
+						<li><span class="propert-name">Resell Price:</span><span class="product_resell"></span></span></li>
+            <li><span class="propert-name">Code:</span><span class="product_code"></span></li>
+            <li><span class="propert_name"></span><span class="product_stock"></span></li>
+					
+          </ul>
 					<input class="product_amount" type="number" value="1" min="1">
 					<input class="product_id" type="hidden" name="id" data-json="">
 					<button class="btn btn-outline-dark shop-button" onclick="event.stopPropagation();addAmountClosestToBasket(this);$('.toast').toast('show')">🛒</button>
@@ -89,7 +100,7 @@
   <!-- voettekst -->
 	<footer>
 		<hr>
-      <p>Het maken van deze website is een opdracht voor het vak informatica op het Emmauscollege Rotterdam.</p>
+     
 	</footer>
 
 	<script src="/js/basket.js"></script> <!-- functies voor de winkelwagen -->
@@ -135,10 +146,16 @@
               }
               // voeg product toe aan DOM, 
               // zodat deze zichtbaar wordt op de webpagina
-              const clone = template.content.cloneNode(true);
+ const clone = template.content.cloneNode(true);
               clone.querySelector(".product_title").textContent = name
+
+clone.querySelector(".product_stock").textContent = product.stock
+
+clone.querySelector(".product_interest").textContent = product.interest              
               clone.querySelector(".product_description").textContent =`${product.description.substr(0, 100)}...`
               clone.querySelector(".product_price").textContent = `€ ${product.price.toFixed(2)}`
+
+clone.querySelector(".product_resell").textContent = `€ ${product.price.toFixed(2)}`              
               clone.querySelector(".product_code").textContent = product.code
               clone.querySelector(".product_id").value = product.id
               clone.querySelector(".product_id").dataset.json = JSON.stringify(product)
