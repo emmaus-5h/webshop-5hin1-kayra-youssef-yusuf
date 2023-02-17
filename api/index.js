@@ -67,7 +67,12 @@ function getCategories(request, response) {
 function getProducts(request, response) {
   console.log('API ontvangt /api/products/', request.query)
   let data = []
-  const sqlOpdracht = db.prepare('SELECT products.id AS id, products.name AS name, products.description AS description, products.code AS code, products.price AS price FROM products ORDER BY name')
+  const sqlOpdracht = db.prepare('SELECT products.id AS id, products.name AS name, products.description AS description, products.code AS code, products.price AS price, products.resell AS resell, stocks.instock AS stock, interest.name AS interest, supplier.brand AS supplier, deliverytime.timedeliver AS time, products.category AS category FROM products INNER JOIN stocks ON stocks.id = products.stock_id INNER JOIN interest ON interest.id = products.interest_id INNER JOIN supplier ON supplier.id = products.supply_id INNER JOIN deliverytime ON deliverytime.id = products.time_id ORDER BY products.name ASC')
+
+  
+  
+  // interest.name AS interest, INNER JOIN interest.id = products.interest_id
+  
   data = sqlOpdracht.all()
   // console.log(JSON.stringify(data, null, 2))
   response.status(200).send(data)
@@ -83,7 +88,7 @@ function getProductById(request, response) {
   response.status(200).json(data[0])
 }
 
-/*
+
 const getRelatedProductsById = (request, response) => {
   const id = parseInt(request.params.id)
   // TODO: change query to return related products
@@ -142,7 +147,7 @@ const deleteProduct = (request, response) => {
     }
   })
 }
-*/
+
 
 
 // ---------------------------------

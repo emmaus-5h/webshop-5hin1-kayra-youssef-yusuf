@@ -50,13 +50,18 @@ CREATE TABLE deliverytime (
 -- want different data? check: https://www.mockaroo.com/910b6c20
 --
 
-insert into products (name, description, code, price) values ('Rolex GMT-Master', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id.', '816905633-0', 24600);
 
-insert into products (name, description, code, price) values ('Rolex Day-Date', 'Nulla ut erat id mauris vulputate elementum. Nullam varius.', '077030122-3', 11);
 
-insert into products (name, description, code, price) values ('Rolex Daytona', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.', '693155505-7', 13.5);
+insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('Rolex GMT-Master', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id.', '816905633-0', 24600, 26000, 2, 2, 1, 1, 'Rolex');
 
-insert into products (name, description, code, price) values ('Rolex Datejust', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', '686928463-6', 14);
+insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('Rolex Day-Date', 'Nulla ut erat id mauris vulputate elementum. Nullam varius.', '077030122-3', 16000, 18000, 2, 2, 1, 1, 'Rolex');
+
+insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category ) values ('Rolex Daytona', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.', '693155505-7', 15000, 17250, 2, 2, 1, 1, 'Rolex');
+
+insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('Rolex Datejust', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', '686928463-6', 14000, 16950, 2, 2, 1, 1, 'Rolex');
+
+
+insert into products (name, description, code, price) values ('Audemars piquet Royal Oak', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', '686928463-6', 14);
 
 
 
