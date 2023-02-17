@@ -7,8 +7,8 @@ CREATE TABLE products (
   code VARCHAR(15),
   name VARCHAR(255),
   description TEXT,
-  price NUMERIC(10, 2)
-  resell NUMERIC(10, 2)
+  price NUMERIC(10, 2),
+  resell NUMERIC(10, 2),
   stock_id INTEGER,
   interest_id INTEGER,
   supply_id VARCHAR,
