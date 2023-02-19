@@ -51,7 +51,7 @@ CREATE TABLE deliverytime (
 --
 
 
---Rolex horloges
+--Rolex 
 
 insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('GMT-Master', 'Dit is het nieuwste exemplaar, ook wel pepsi genoemd.', '816905633-0', 24600, 26000, 2, 1, 1, 1, 'rolex');
 
@@ -61,7 +61,7 @@ insert into products (name, description, code, price, resell, stock_id, interest
 
 insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('Datejust', 'Dit is ook wel het meest bekende horloge van rolex, het is gemaakt van.', '686928463-6', 14000, 16950, 2, 2, 1, 1, 'rolex');
 
---Audemars Piquet horloges
+--Audemars Piquet
 
 insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('Royal Oak', 'Dit geweldige horloge is gemaakt van black ceramic.', '686928463-6', 42000, 63500, 2, 2, 1, 1, 'ap');
 
@@ -71,7 +71,7 @@ insert into products (name, description, code, price, resell, stock_id, interest
 
 insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('Jules Audemars', 'Dit horloge is gemaakt van goud met een leren band.', '077030122-3', 34000, 49000, 2, 1, 1, 1, 'ap');
 
---Patek Philippe horloges
+--Patek Philippe 
 
 insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('Nautilus', 'Dit is het perfecte horloge gemaakt van ceramic en.', '077030122-2', 55000,145000, 2, 1, 1, 1, 'patek');
 

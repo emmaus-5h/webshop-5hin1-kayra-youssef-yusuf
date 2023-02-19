@@ -142,6 +142,8 @@
             for (let row in data) { // herhaal voor elke product
               const product = data[row]
               var name = product.name.substr(0, 35)
+              if (product.category == 'Rolex') {
+
               if(name.length < product.name.length) {
                 name = name + '...'
               }
