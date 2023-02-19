@@ -139,7 +139,8 @@
       app.appendChild(container)
         
             var data = JSON.parse(this.response) // vertaal response van API naar array met producten
-            for (let row in data) { // herhaal voor elke product
+            console.log(data);
+      for (let row in data) { // herhaal voor elke product
               const product = data[row]
               var name = product.name.substr(0, 35)
               if (product.category == 'Rolex') {
