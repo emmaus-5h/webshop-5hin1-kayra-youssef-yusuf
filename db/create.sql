@@ -53,35 +53,35 @@ CREATE TABLE deliverytime (
 
 --Rolex 
 
-insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('GMT-Master', 'Dit is het nieuwste exemplaar, ook wel pepsi genoemd.', '816905633-0', 27000, 27500, 2, 1, 1, 1, 'rolex');
+insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('Rolex GMT-Master', 'Dit is het nieuwste exemplaar, ook wel pepsi genoemd. Deze horloge laat de tijd in twee verschillende tijdzones zien.', '816905633-0', 8000, 8650, 1, 1, 1, 1, 'rolex');
 
-insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('Day-Date', 'Dit horloge is compleet van goud gemaakt en heeft een diamond-plate.', '077030122-3', 16000, 16250,  2, 1, 1, 1, 'rolex');
+insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('Rolex Day-Date', 'Dit horloge is compleet van goud gemaakt en heeft een diamond-plate. Dit horloge was de eerste polshorloge met kalenderfunctie waarop niet alleen de datum, maar ook de dag voluit geschreven was in een venster op de wijzerplaat.', '077030122-3', 45000, 46940,  1, 1, 1, 1, 'rolex');
 
-insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category ) values ('Daytona', 'Prachtige horloge gemaakt van staal en titanium. ', '693155505-7', 15000, 17250, 2, 2, 1, 1, 'rolex');
+insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category ) values ('Rolex Daytona', 'Prachtige horloge gemaakt van staal en titanium. Daytona is het ultieme multifunctionele horloge voor iedereen met een passie voor racen en snelheid. ', '693155505-7', 23450, 24760, 2, 1, 1, 1, 'rolex');
 
-insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('Datejust', 'Dit is ook wel het meest bekende horloge van rolex, het is gemaakt van.', '686928463-6', 14000, 16950, 2, 2, 1, 1, 'rolex');
+insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('Rolex Datejust', 'Dit is ook wel het meest bekende horloge van rolex, het is gemaakt van witgoud en diamanten. Datejust is de eerste automatische waterdichte polschronometer die de datum weergaf in een venster op 3 uur op de wijzerplaat.', '686928463-6', 4670, 5455, 2, 2, 1, 1, 'rolex');
 
 --Audemars Piquet
 
-insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('Royal Oak', 'Dit geweldige horloge is gemaakt van black ceramic.', '686928463-6', 42000, 47500, 2, 2, 1, 1, 'ap');
+insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('Audemars Piquet Royal Oak', 'De Royal Oak is het bekendste en populairste model van de manufactuur uit Le Brassus. Dit geweldige horloge is gemaakt van black ceramic.', '686928463-6', 24920, 25480, 1, 1, 1, 1, 'ap');
 
-insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('Millenary', 'Dit is het eerste horloge dat Audemars piquet uitgebracht heeft.', '077030122-3', 21000, 27350, 2, 2, 1, 1, 'ap');
+insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('Audemars Piquet Millenary', 'Dit is het eerste horloge dat Audemars piquet uitgebracht heeft. Zoals de naam het al aangeeft, heeft dit horloge een minutenrepetitie.', '077030122-3', 34340, 36980, 2, 2, 1, 1, 'ap');
 
-insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('Royal Oak Offshore', 'Dit horloge heeft een leren band en is van staal gemaakt.', '077030122-3', 51000, 53500, 2, 1, 1, 1, 'AP');
+insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('Audemars Piquet Royal Oak Offshore', 'Dit horloge heeft een leren band en is van staal gemaakt. Je kunt dit horloge herkennen aan het patrijspoortdesign en de forse kast.', '077030122-3', 55470, 59320, 2, 1, 1, 1, 'ap');
 
-insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('Jules Audemars', 'Dit horloge is gemaakt van goud met een leren band.', '077030122-3', 34000, 40000, 2, 1, 1, 1, 'ap');
+insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('Audemars Piquet Jules Audemars', 'Dit is het eerste Audemars Piquet-horloge met een eeuwigdurende kalender. Dit horloge is gemaakt van goud met een leren band.', '077030122-3', 42800, 47580, 2, 2, 1, 1, 'ap');
 
 --Patek Philippe 
 
-insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('Nautilus', 'Dit is het perfecte horloge gemaakt van ceramic en.', '077030122-2', 55000, 68000, 2, 1, 1, 1, 'patek');
+insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('Patek Phillipe Nautilus','De Nautilus-serie wordt gekenmerkt door een hoge technische standaard en een karakteristiek design. Dit is het perfecte horloge die een mix is van een stalen sporthorloge en een duur luxues horloge.', '077030122-2', 27680, 29670, 1, 1, 2, 1, 'patek');
 
-insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('Aquanaut ', 'Beeldschone horloge gemaakt van stainless steel.', '077030122-2', 33000, 41000, 2, 1, 1, 1, 'patek');
+insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('Patek Phillipe Aquanaut ', 'Dit horloge is een modern sporthorloge, dat een betaalbare introductie in de wereld van de Geneefse manufactuur vormt. Het is een beeldschone horloge die is gemaakt van stainless steel.', '077030122-2', 69250, 72850, 1, 2, 1, 1, 'patek');
 
-insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('Complications ', 'Prachtige horloge gemaakt van witte ceramic.', '077030122-2', 46500, 52000, 2, 1, 1, 1, 'patek');
+insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('Patek Phillipe Complications', 'Deze horloge is een zeer begeerd model onder horlogekenners en verzamelaars. Het is een prachtige horloge die is gemaakt van witte ceramic.', '077030122-2', 56740, 58170, 2, 2, 1, 1, 'patek');
 
-insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('Gondolo', 'Het oudste exemplaar van Patek Philippe gemaakt van goud en heeft een speciale leren band.', '077030122-2', 11000,17500, 2, 1, 1, 1, 'patek');
+insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('Patek Phillipe Gondolo', 'it soort horloges hebben een art deco-design en zijn hoekig of tonneauvormig. De gondolo is het oudste exemplaar van Patek Philippe die is gemaakt van goud en het heeft een speciale leren band.', '077030122-2', 42470,44560, 2, 2, 1, 1, 'patek');
 
---stocks
+  --stocks
 insert into stocks (instock) values ('Bijna uitverkocht');
 insert into stocks (instock) values ('Instock');
 
