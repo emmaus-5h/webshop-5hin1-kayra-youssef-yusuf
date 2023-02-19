@@ -57,7 +57,7 @@ insert into products (name, description, code, price, resell, stock_id, interest
 
 insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('Rolex Day-Date', 'Dit horloge is compleet van goud gemaakt en heeft een diamond-plate. Dit horloge was de eerste polshorloge met kalenderfunctie waarop niet alleen de datum, maar ook de dag voluit geschreven was in een venster op de wijzerplaat.', '077030122-3', 45000, 46940,  1, 1, 1, 1, 'rolex');
 
-insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category ) values ('Rolex Daytona', 'Prachtige horloge gemaakt van staal en titanium. Daytona is het ultieme multifunctionele horloge voor iedereen met een passie voor racen en snelheid. ', '693155505-7', 23450, 24760, 2, 1, 1, 1, 'rolex');
+insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category ) values ('Rolex Daytona', 'Prachtige horloge gemaakt van staal en titanium. Daytona is het ultieme multifunctionele horloge voor iedereen met een passie voor racen en snelheid. ', '693155505-7', 23450, 24760, 2, 2, 1, 1, 'rolex');
 
 insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('Rolex Datejust', 'Dit is ook wel het meest bekende horloge van rolex, het is gemaakt van witgoud en diamanten. Datejust is de eerste automatische waterdichte polschronometer die de datum weergaf in een venster op 3 uur op de wijzerplaat.', '686928463-6', 4670, 5455, 2, 2, 1, 1, 'rolex');
 
