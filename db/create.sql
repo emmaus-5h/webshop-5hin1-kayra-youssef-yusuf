@@ -53,9 +53,9 @@ CREATE TABLE deliverytime (
 
 --Rolex 
 
-insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('GMT-Master', 'Dit is het nieuwste exemplaar, ook wel pepsi genoemd.', '816905633-0', 24600, 26000, 2, 1, 1, 1, 'rolex');
+insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('GMT-Master', 'Dit is het nieuwste exemplaar, ook wel pepsi genoemd.', '816905633-0', 27000, 27500, 2, 1, 1, 1, 'rolex');
 
-insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('Day-Date', 'Dit horloge is compleet van goud gemaakt en heeft een diamond-plate.', '077030122-3', 16000, 18000,  2, 1, 1, 1, 'rolex');
+insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('Day-Date', 'Dit horloge is compleet van goud gemaakt en heeft een diamond-plate.', '077030122-3', 16000, 16250,  2, 1, 1, 1, 'rolex');
 
 insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category ) values ('Daytona', 'Prachtige horloge gemaakt van staal en titanium. ', '693155505-7', 15000, 17250, 2, 2, 1, 1, 'rolex');
 
@@ -63,21 +63,21 @@ insert into products (name, description, code, price, resell, stock_id, interest
 
 --Audemars Piquet
 
-insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('Royal Oak', 'Dit geweldige horloge is gemaakt van black ceramic.', '686928463-6', 42000, 63500, 2, 2, 1, 1, 'ap');
+insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('Royal Oak', 'Dit geweldige horloge is gemaakt van black ceramic.', '686928463-6', 42000, 47500, 2, 2, 1, 1, 'ap');
 
 insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('Millenary', 'Dit is het eerste horloge dat Audemars piquet uitgebracht heeft.', '077030122-3', 21000, 27350, 2, 2, 1, 1, 'ap');
 
 insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('Royal Oak Offshore', 'Dit horloge heeft een leren band en is van staal gemaakt.', '077030122-3', 51000, 53500, 2, 1, 1, 1, 'AP');
 
-insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('Jules Audemars', 'Dit horloge is gemaakt van goud met een leren band.', '077030122-3', 34000, 49000, 2, 1, 1, 1, 'ap');
+insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('Jules Audemars', 'Dit horloge is gemaakt van goud met een leren band.', '077030122-3', 34000, 40000, 2, 1, 1, 1, 'ap');
 
 --Patek Philippe 
 
-insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('Nautilus', 'Dit is het perfecte horloge gemaakt van ceramic en.', '077030122-2', 55000,145000, 2, 1, 1, 1, 'patek');
+insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('Nautilus', 'Dit is het perfecte horloge gemaakt van ceramic en.', '077030122-2', 55000, 68000, 2, 1, 1, 1, 'patek');
 
-insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('Aquanaut ', 'Beeldschone horloge gemaakt van stainless steel.', '077030122-2', 33000,99000, 2, 1, 1, 1, 'patek');
+insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('Aquanaut ', 'Beeldschone horloge gemaakt van stainless steel.', '077030122-2', 33000, 41000, 2, 1, 1, 1, 'patek');
 
-insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('Complications ', 'Prachtige horloge gemaakt van witte ceramic.', '077030122-2', 46500,79000, 2, 1, 1, 1, 'patek');
+insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('Complications ', 'Prachtige horloge gemaakt van witte ceramic.', '077030122-2', 46500, 52000, 2, 1, 1, 1, 'patek');
 
 insert into products (name, description, code, price, resell, stock_id, interest_id, supply_id, time_id, category) values ('Gondolo', 'Het oudste exemplaar van Patek Philippe gemaakt van goud en heeft een speciale leren band.', '077030122-2', 11000,17500, 2, 1, 1, 1, 'patek');
 
